@@ -52,6 +52,21 @@ body {
     padding: 15px 137px;
 }
 
+.text-h-p h2 {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 52px;
+    text-transform: uppercase;
+}
+
+.text-h-p p {
+    font-size: 14;
+    line-height: 24px;
+    margin-top: 33px;
+}
+
 /*STYLE FOR RESONS*/
 
 .photo-reasons {
@@ -85,6 +100,7 @@ body {
     line-height: 21px;
     margin-top: 23px;
 }
+
 
 .photo {
     flex: 2;
@@ -126,6 +142,12 @@ nav {
 .main-nav a:hover {
     color: #81b3d2;
 }
+
+.main-nav a:active {
+    color: grey;
+}
+
+
 
 nav img {
     height: 96px;
@@ -289,19 +311,6 @@ nav img {
     height: 277px;
 }
 
-.find-hotel h2 {
-    font-size: 30px;
-    line-height: 26px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 52px;
-}
-
-.find-hotel p {
-    font-size: 14;
-    line-height: 24px;
-    margin-top: 33px;
-}
 
 .find-hotel a {
     margin-left: 370px;
@@ -386,4 +395,118 @@ nav img {
     left: 100%;
     bottom: -20%;
     margin-left: 8px;
+}
+
+
+/*PHOTO AND VIDEO PAGE*/
+
+/*SHOWCASE*/
+
+.showcase-photo {
+    overflow: hidden;
+}
+.showcase-photo .main-pic  {
+    width: 100%;
+    margin: -216px 0px 0px 0px;
+    position: relative;
+}
+
+.showcase-photo .main-pic-decor {
+    position: absolute;
+    bottom: 42.6%;
+}
+
+.showcase-photo .main-pic-text {
+    position: absolute;
+    top: 25%;
+}
+
+/* PHOTO SECTION*/
+
+.photo-vid-sec .text-h-p {
+    margin-top: 108px;
+}
+
+.photo-vid-sec p {
+    margin: 29px;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+/*PHOTO DESCRIPTION AND LIKE*/
+
+
+.photo-descr-text h3 {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 17px 0 0 21px;
+}
+
+.photo-descr-text p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 0 0 21px;
+}
+
+.photo-like {
+    position: relative;
+    color: #fff;
+    margin: 35px 25px;
+}
+
+.photo-like::before {
+    position: absolute;
+    display: block;
+    content: "";
+    background: url(/img/like-icon.png);
+    height: 21px;
+    width: 23px;
+    right: 115%;
+}
+
+.photo-line {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #000;
+    opacity: 0.8;
+}
+
+/*PHOTO-LINE POSITION*/
+
+.photo-wrapper {
+    position: relative;
+}
+
+
+.photo-line {
+    position: absolute;
+    bottom: 0;
+}
+
+.photo-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*VIDEO SECTION*/
+
+.video-sec .text-h-p {
+    margin-top: 65px;
+}
+
+
+.video-container iframe{
+    width: 800px;
+    height: 500px;
+    margin: 60px 200px 90px 200px;
 }
