@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ФОРМА ОТЗЫВА</title>
+</head>
+<body>
+    <div class="body-container">
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="photo.html">ФОТО И ВИДЕО</a></li>
+                <li><a href="#"><img src="img/logotype-desktop.png" alt="logo"></a></li>
+                <li><a href="form.html">ФОРМА ОТЗЫВА</a></li>
+                <li><a href="#">HTML ACADEMY</a></li>
+            </ul>
+        </nav>
+    
+        <section class="showcase">
+            <div class="showcase-container showcase-photo">
+              <img class="main-pic" src="/img/back-desktop.jpg" alt="showcase picture">
+              <img class="main-pic-text" src="/img/text-sedona.png" alt="">
+              <img class="main-pic-decor" src="img/intro-triangle.png" alt="decor">
+            </div>
+          </section>
+
+            <div class="feedback-heading">
+          <div class="text-h-p">
+              <h2>ОСТАВЬТЕ СВОЙ ОТЗЫВ</h2>
+              <p>ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! ОСТАВЬТЕ ОТЗЫВ О НИХ, А<br>ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
+            </div>
+          </div>
+
+          <section class="feedback">
+              <div class="feedback-top">
+                  <fieldset class="reaction-form">
+                      <h3 class="text-h">ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</h3>
+                      <div class="radio-wrap">
+                          <input type="radio" name="reaction" id="positive" checked>
+                          <label for="positive">Скорее положительное</label><br>
+                        </div>
+                        <div class="radio-wrap">
+                          <input type="radio" name="reaction" id="not-positive">
+                          <label for="not-positive">Скорее отрицательное</label><br>
+                        </div>
+                        <div class="radio-wrap">
+                          <input type="radio" name="reaction" id="cant-answer">
+                          <label for="cant-answer">Затрудняюсь ответить</label>
+                        </div>
+                  </fieldset>
+                  <fieldset class="name-form">
+                      <h3 class="text-h">ПРЕДСТАВЬТЕСЬ:</h3>
+                          <label for="name">ИМЯ*:</label>
+                          <input type="text" placeholder="Петр" id="name" required><br>
+                          <label for="surname">ФАМИЛИЯ*:</label>
+                          <input type="text" placeholder="Иванов" id="surname" required><br>
+                          <label for="patronymic">ОТЧЕСТВО:</label>
+                          <input type="text" placeholder="Иванов" id="patronymic">
+                  </fieldset>
+              </div>
+          </section>
+    </div>
+</body>
+</html>

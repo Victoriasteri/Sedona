@@ -65,6 +65,7 @@ body {
     font-size: 14;
     line-height: 24px;
     margin-top: 33px;
+    text-align: center;
 }
 
 /*STYLE FOR RESONS*/
@@ -510,3 +511,62 @@ nav img {
     height: 500px;
     margin: 60px 200px 90px 200px;
 }
+
+
+/*FORM PAGE*/
+
+/*FEEDBACK SECTION*/
+
+.feedback-heading .text-h-p {
+    margin-top: 104px;
+}
+
+.feedback-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset {
+    border: none;
+}
+
+.feedback-top h3 {
+    margin-top: 57px;
+    margin-bottom: 78px;
+    padding-left: 30px;
+}
+
+input[type="radio"] {
+    zoom: 4;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.reaction-form label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/*NAME FORM*/
+
+.name-form h3 {
+    text-align: left;
+    padding-left: 0;
+}
+
+.name-form label {
+    font-size: 14px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px 90px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
