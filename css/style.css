@@ -550,6 +550,13 @@ input[type="radio"] {
 
 /*NAME FORM*/
 
+.name-form {
+    border-left: #e6e6e6 solid 1px;
+    border-bottom: #e6e6e6 solid 1px;
+    padding-left: 135px;
+    
+}
+
 .name-form h3 {
     text-align: left;
     padding-left: 0;
@@ -559,7 +566,9 @@ input[type="radio"] {
     font-size: 14px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="tel"],
+input[type="email"]  {
     font-size: 14px;
     font-weight: bold;
     padding: 18px 90px;
@@ -567,6 +576,94 @@ input[type="text"] {
     margin-bottom: 20px;
     margin-left: 10px;
     border: none;
-    background-color: #f2f2f2;
+    background-color: #e6e6e6;
 }
+
+/*CONTACT FORM*/
+
+.contact-info h3 {
+    margin-top: 47px;
+}
+
+.contact-form {
+    margin-top: 75px;
+}
+
+.number-wrapper {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+
+
+.number-wrapper input::before {
+    display: block;
+    content: '';
+    background: #e6e6e6 url(/img/phone.png) no-repeat center;
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.email-wrapper {
+    display: inline-block;
+    float: right;
+    margin-right: 90px;
+}
+
+/*PLACES*/
+
+.visited-places-info h3 {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.places-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.places-wrapper input {
+    zoom: 5;
+    border: none;
+}
+
+/*EMOTIONS*/
+
+.emotions h3 {
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+
+.emotions input {
+    width: 960px;
+    height: 160px;
+    margin-left: 100px;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.emotions button {
+    margin-top: 57px;
+    margin-left: 100px;
+    border: none;
+    position: relative;
+}
+
+.emotions span {
+    position: absolute;
+    right: 16%;
+    top: 279%;
+}
+
+
+
+
 
