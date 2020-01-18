@@ -52,6 +52,11 @@ body {
     padding: 15px 137px;
 }
 
+.btn:hover {
+    background-color: lightskyblue;
+}
+
+
 .text-h-p h2 {
     font-size: 30px;
     line-height: 26px;
@@ -360,6 +365,7 @@ nav img {
     background-color: #81b3d2;
 }
 
+
 .fb::before {
     content: "";
     display: block;
@@ -524,6 +530,7 @@ nav img {
 .feedback-top {
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 fieldset {
@@ -532,8 +539,8 @@ fieldset {
 
 .feedback-top h3 {
     margin-top: 57px;
-    margin-bottom: 78px;
-    padding-left: 30px;
+    margin-bottom: 65px;
+    padding-left: 90px;
 }
 
 input[type="radio"] {
@@ -548,18 +555,32 @@ input[type="radio"] {
     margin-left: 15px;
 }
 
+.reaction-form {
+    border-bottom: #e6e6e6 solid 1px;
+    padding-bottom: 57px;
+    padding-left: 35px;
+    margin-top: -58px;
+}
+
+.radio-wrap {
+    padding-left: 17px;
+
+}
 /*NAME FORM*/
 
 .name-form {
     border-left: #e6e6e6 solid 1px;
     border-bottom: #e6e6e6 solid 1px;
-    padding-left: 135px;
+    padding-left: 153px;
+    padding-bottom: 57px;
     
 }
 
 .name-form h3 {
     text-align: left;
     padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 57px;
 }
 
 .name-form label {
@@ -581,9 +602,6 @@ input[type="email"]  {
 
 /*CONTACT FORM*/
 
-.contact-info h3 {
-    margin-top: 47px;
-}
 
 .contact-form {
     margin-top: 75px;
@@ -610,8 +628,9 @@ input[type="email"]  {
 
 .email-wrapper {
     display: inline-block;
-    float: right;
+    /*float: right;*/
     margin-right: 90px;
+    padding-left: 150px;
 }
 
 /*PLACES*/
@@ -660,10 +679,52 @@ input[type="email"]  {
 .emotions span {
     position: absolute;
     right: 16%;
-    top: 279%;
+    top: 290%;
 }
 
 
+.head-container-cont {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.head-container-cont h3 {
+    margin: 0;
+    padding-top: 75px;
+}
+
+.number-wrapper{
+    padding-bottom: 100px;
+}
 
 
+.contact-form {
+    border-bottom: #e6e6e6 1px solid;
+    margin-bottom: 0;
+}
 
+.visited-places-info {
+    margin-top: 50px;
+}
+
+.head-container-place {
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+}
+.head-container-place h3 {
+    margin-top: -25px;
+}
+
+.places-wrapper {
+    margin-bottom: 70px;
+}
+
+.emotions-text {
+    margin-bottom: 105px;
+}
